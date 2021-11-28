@@ -36,6 +36,29 @@
             </label>
             <br><br>
 
+            <?php
+
+                //Accede si hay valores en ?error= tras la ruta de la página
+                if(isset($_GET["error"])){
+
+                    if ($_GET["error"] == "incorrecto") {
+
+                    echo '<div class="alert alert-danger">'."Usuario o Contraseña incorrectos".'</div> <br>';
+
+                    }elseif ($_GET["error"] == "fuera") {
+
+                    echo '<div class="alert alert-danger">'."No se puede acceder directamente, debe hacer login".'</div> <br>';
+
+                    }elseif ($_GET["error"] == "vacio") {
+
+                        echo '<div class="alert alert-danger">'."Debe rellenar sus credenciales".'</div> <br>';
+    
+                    }
+                        
+                }
+
+            ?>
+
             <input type="submit" value="Enviar" name="submit" class="btn btn-success" />
 
         </form>

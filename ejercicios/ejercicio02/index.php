@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 
-     <!--Se incluyen todos los archivos php que darán forma a la página secundaria del sitio web -->
+    <!--Se incluyen todos los archivos php que darán forma a la página de inicio,por defecto, el login -->
 
     <head>
 
@@ -11,7 +11,8 @@
     <body>
 
         <?php require 'includes/header.php'; ?>
-        <?php require 'includes/mainSecundaria.php'; ?>
+        <?php require 'includes/login.php'; ?>
+        <?php require 'includes/mainLogin.php'; ?>
         <?php require 'includes/footer.php'; ?>
 
     </body>
