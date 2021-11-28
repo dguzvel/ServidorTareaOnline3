@@ -1,0 +1,55 @@
+body{
+
+    background-color: black;
+
+}
+
+.encabezado{
+
+    font-family: 'Irish Grover', cursive;
+    color:white;
+    text-align: center;
+    background-color: black;
+    padding-top: 25px;
+    margin-top: 25px; 
+
+}
+
+.cuerpo{
+
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    min-width: 100%;
+    background-color: white;
+
+}
+
+#titulo{
+
+    font-family: 'Irish Grover', cursive;
+    color:goldenrod;
+    font-weight: bolder;
+    text-decoration-line: underline;
+
+}
+
+.pie{
+
+    font-family: 'Irish Grover', cursive;
+    color:white;
+    text-align: center;
+    background-color: black;
+    min-width: 100%;
+    padding-top: 10px;
+    margin-bottom: 0px;
+
+}
+
+.alert{
+
+    margin-top: 5px;
+
+}
